@@ -63,6 +63,7 @@ body {
   background-image: url("../../images/contact.jpg");
   background-repeat: no-repeat;
   background-size:100% 100%;
+  width:100%;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -186,7 +187,7 @@ body {
   overflow:scroll;
   position:fixed;
   margin-bottom:5px;
-  bottom:10%;
+  left:5%;
 }
 
 /*
@@ -207,6 +208,19 @@ body {
     width:70%;
     font-size:16px;
     font-style:italic;
+    max-width:50%;
+
+    overflow: scroll;
+    height:70%;
+    width:60%;
+    border-radius:20px;
+    position:fixed;
+    /*transform: translate(-50%, 0);*/
+    right:5%;
+    left: 5%;
+    margin-bottom:5px;
+    bottom:0.5%;
+    padding-top:20px;
   }
 
  /*
