@@ -169,7 +169,6 @@ body {
 }
 
 .about-summary {
-  width:50%;
   background-color:rgba(74,72,68, 0.6);
   border-radius:20px;
   padding:20px;
@@ -179,7 +178,12 @@ body {
   overflow:scroll;
   position:fixed;
   margin-bottom:5px;
+  max-width:400px;
+  max-height:200px;
   left:5%;
+  right:1%;
+  bottom:30%;
+  top:30%;
 }
 
 /*
