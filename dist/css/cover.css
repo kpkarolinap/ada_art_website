@@ -183,6 +183,10 @@ body {
   font-size:16px;
   font-style:italic;
   border:1px solid #E0FFE0;
+  overflow:scroll;
+  position:fixed;
+  margin-bottom:5px;
+  bottom:10%;
 }
 
 /*
@@ -218,11 +222,12 @@ body {
     height:70%;
     width:60%;
     border-radius:20px;
-    position:absolute;
+    position:fixed;
     /*transform: translate(-50%, 0);*/
     right:20%;
     left: 20%;
     margin-bottom:5px;
+    bottom:0.5%;
     padding-top:20px;
     border:1px solid #D6EBFF;
   }
