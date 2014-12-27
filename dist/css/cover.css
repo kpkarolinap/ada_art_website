@@ -221,6 +221,7 @@ body {
     margin-bottom:5px;
     bottom:0.5%;
     padding-top:20px;
+    font-weight:bold;
   }
 
  /*
@@ -241,7 +242,7 @@ body {
     right:20%;
     left: 20%;
     margin-bottom:5px;
-    bottom:0.5%;
+    bottom:2%;
     padding-top:20px;
     border:1px solid #D6EBFF;
   }
